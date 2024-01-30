@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3E3E3">
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="266dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#172CA1"
+        android:text="send"
+        android:textColorHighlight="#3F51B5"
+        android:textColorLink="#3F51B5"
+        app:cornerRadius="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="545dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#1700BCD4"
+        android:backgroundTint="#E5EBEC"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="367dp">
+
+        <EditText
+            android:id="@+id/code2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="4dp"
+            android:background="@drawable/codeotp"
+            android:ems="10"
+            android:inputType="number"
+            android:textColorHighlight="@color/cardview_dark_background" />
+
+        <EditText
+            android:id="@+id/code3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="4dp"
+            android:background="@drawable/codeotp"
+            android:ems="10"
+            android:inputType="number"
+            android:textColorHighlight="@color/cardview_dark_background" />
+
+        <EditText
+            android:id="@+id/code4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="4dp"
+            android:background="@drawable/codeotp"
+            android:ems="10"
+            android:inputType="number"
+            android:textColorHighlight="@color/cardview_dark_background" />
+
+        <EditText
+            android:id="@+id/code5"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="4dp"
+            android:background="@drawable/codeotp"
+            android:ems="10"
+            android:inputType="number"
+            android:textColorHighlight="@color/cardview_dark_background" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vertifikasi OTP"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="127dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="350dp"
+        android:layout_height="58dp"
+        android:text="Enter the code from the email we sent to Brandonelouis@gmail.com "
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="183dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
