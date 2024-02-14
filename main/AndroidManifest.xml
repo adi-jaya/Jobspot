@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jobspot.jobspot" >
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Jobspot" >
+        <activity
+            android:name=".UploadFileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".JobseekerProfileEditActivity"
+            android:exported="false"
+            android:label="Ubah Profil"
+            android:parentActivityName=".JobseekerProfileActivity"
+            android:theme="@style/Theme.Second" />
+        <activity
+            android:name=".JobApplicationFilterActivity"
+            android:exported="false"
+            android:label="Filter"
+            android:parentActivityName=".JobApplicationActivity"
+            android:theme="@style/Theme.Second" />
+        <activity
+            android:name=".JobApplicationDetailActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Second" />
+        <activity
+            android:name=".JobVacancyFilterActivity"
+            android:exported="false"
+            android:label="Filter"
+            android:parentActivityName=".JobVacancyActivity"
+            android:theme="@style/Theme.Second" />
+        <activity
+            android:name=".JobVacancyDetailActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Second" />
+        <activity
+            android:name=".JobseekerProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".JobApplicationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".JobVacancyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ForgotPasswordResetSuccessActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ForgotPasswordResetActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ForgotPasswordVerificationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ForgotPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegistrationVerificationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegistrationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SelectRoleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreenActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
