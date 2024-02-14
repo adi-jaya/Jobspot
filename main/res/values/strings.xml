@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Jobspot</string>
+    <string name="lorem10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, aut.</string>
+    <string name="lorem30">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab assumenda corporis eveniet fugit harum illo, illum impedit natus, nisi odio officiis optio, quod repellendus repudiandae sapiente? Aliquid cumque laboriosam voluptatum!</string>
+    <string name="rejectNoticeMessage">Mohon maaf lamaran Anda ditolak. Karena lowongan sudah terpenuhi atau lamaran Anda tidak memenuhi persyaratan.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
